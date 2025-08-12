@@ -1,40 +1,56 @@
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  .title {
-    font-size: 2.5rem;
-    color: #222;
-  }
-  
-  .description {
-    font-size: 1.2rem;
-    margin: 1rem 0 2rem;
-    color: #555;
-  }
-  
-  .button {
-    display: inline-block;
-    background-color: #0088cc;
-    color: white;
-    padding: 0.8rem 1.5rem;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-    background-color: #006699;
-  }
-  
-  .footer {
-    margin-top: 3rem;
-    font-size: 0.9rem;
-    color: #777;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem;
+  color: #555;
+}
+
+.buttonTelegram,
+.buttonWhatsApp {
+  display: block;           /* Faz o botão ocupar toda a linha */
+  width: 250px;             /* Largura fixa para os botões */
+  margin: 0.5rem auto;      /* Espaço vertical e centraliza horizontalmente */
+  background-color: inherit; /* Mantém a cor de fundo definida individualmente */
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  text-align: center;       /* Centraliza o texto */
+  cursor: pointer;
+}
+
+.buttonTelegram {
+  background-color: #0088cc;
+}
+
+.buttonWhatsApp {
+  background-color: #075E54;
+}
+
+.buttonTelegram:hover {
+  background-color: #006699;
+}
+
+.buttonWhatsApp:hover {
+  background-color: #044d40;
+}
+
+.footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #777;
+}

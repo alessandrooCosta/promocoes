@@ -18,19 +18,29 @@ function Home() {
         <main className="container">
           <h1 className="title">Promoções Inteligentes</h1>
           <p className="description">
-            Receba as melhores ofertas e descontos direto no seu Telegram! Nosso
+            Receba as melhores ofertas e descontos direto no seu Telegram e WhatsApp! Nosso
             canal seleciona diariamente as promoções mais quentes da Amazon
-            Brasil, tudo com links exclusivos de afiliados.
+            Brasil,Shoppe e Mercado Livre tudo com links exclusivos de afiliados.
           </p>
 
           <a
             href="https://t.me/promo_inteligentes"
             target="_blank"
             rel="noopener noreferrer"
-            className="button"
+            className="buttonTelegram"
             aria-label="Entrar no canal Promoções Inteligentes no Telegram"
           >
             Entrar no Canal do Telegram
+          </a>
+
+          <a
+            href="https://whatsapp.com/channel/0029Vb67C7T9RZAdJxVlWW29"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="buttonWhatsApp"
+            aria-label="Entrar no canal Promoções Inteligentes no WhatsApp"
+          >
+            Entrar no Canal do WhatsApp
           </a>
 
           <footer className="footer">
