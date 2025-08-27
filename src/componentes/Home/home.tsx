@@ -1,12 +1,8 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
-<<<<<<< HEAD
-import "./home.css";
-=======
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faSquareXTwitter} from "@fortawesome/free-brands-svg-icons";
-import "./Home.css";
->>>>>>> main
+import "./home.css";
 
 
 function Home() {
